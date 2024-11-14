@@ -1,3 +1,12 @@
+<template>
+  <div id="app">
+    <Header />
+    <Creations />
+    <Contact />
+    <Footer />
+  </div>
+</template>
+
 <script>
 import { RouterLink, RouterView } from 'vue-router'
 import Home from './views/Home.vue'
@@ -19,16 +28,6 @@ export default {
 };
 </script>
 
-<template>
-  <div id="app">
-    <Header />
-    <Home />
-    <Creations />
-    <Contact />
-    <Footer />
-  </div>
-</template>
-
 <style scoped>
-
+  @import url(./assets/main.css);
 </style>

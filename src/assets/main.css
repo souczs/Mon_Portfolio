@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+html {
+  font-family:"Nunito Sans", sans serif;
+  font-weight: bold;
+  overflow: auto;
+}
+
+body {
+  padding-top:50px;
+  /* background-image: linear-gradient(to bottom right, white, rgba(227, 205, 224, 0.524)); */
+}
