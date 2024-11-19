@@ -19,7 +19,6 @@
     display:flex;
     flex-direction:row;
     justify-content:space-between;
-    position:absolute;
     bottom:0;
     width:100%;
 }

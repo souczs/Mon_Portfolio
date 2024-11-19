@@ -1,6 +1,15 @@
 <template>
     <body>
-        <h1>About me</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <h1>Bienvenue sur mon site</h1>
+        <p>Bienvenue</p>
+        <p>Bienvenue</p>
+        <p>Bienvenue</p>
+        <p>Bienvenue</p>
+        <p>Bienvenue</p>
+        <p>Bienvenue</p>
+        <p>Bienvenue</p>
+        <p>Bienvenue</p>
+        <p>Bienvenue</p>
+        <p>Bienvenue</p>
     </body>
 </template>

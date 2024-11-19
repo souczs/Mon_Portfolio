@@ -1,13 +1,12 @@
 <template>
     <header>
         <nav class="menu">
-            <img src="" alt="Revenir en haut de la page" class="menu__img">
-            <RouterLink to="/">HOME</RouterLink>
-            <RouterLink to="/projets">PROJETS</RouterLink>
-            <RouterLink to="/contact">CONTACT</RouterLink>
+            <RouterLink to="/"><img src="" alt="Revenir en haut de la page" class="menu__img"></RouterLink>
+            <RouterLink to="/#presentation">PRESENTATION</RouterLink>
+            <RouterLink to="/#projets">PROJETS</RouterLink>
+            <RouterLink to="/#contact">ME CONTACTER</RouterLink>
         </nav>
     </header>
-    <RouterView />
 </template>
 
 <style>

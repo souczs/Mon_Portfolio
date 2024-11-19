@@ -3,10 +3,15 @@
 html {
   font-family:"Nunito Sans", sans serif;
   font-weight: bold;
-  overflow: auto;
+  /* overflow: auto; */
 }
 
 body {
-  padding-top:50px;
+  padding-top:30px;
   /* background-image: linear-gradient(to bottom right, white, rgba(227, 205, 224, 0.524)); */
+}
+
+main {
+  height:100%;
+  overflow-x:hidden;
 }
