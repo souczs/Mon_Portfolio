@@ -1,7 +1,7 @@
 <template>
     <header>
         <nav class="menu">
-            <RouterLink to="/"><img src="" alt="Revenir en haut de la page" class="menu__img"></RouterLink>
+            <RouterLink to="/"><img src="../assets/img/home.png" alt="Revenir en haut de la page" class="menu__img"></RouterLink>
             <RouterLink to="/#presentation">PRESENTATION</RouterLink>
             <RouterLink to="/#projets">PROJETS</RouterLink>
             <RouterLink to="/#contact">ME CONTACTER</RouterLink>
@@ -12,23 +12,16 @@
 <style>
 
 header {
-    background-color:#bad6b0;
+    background-color:#c8af7d;
     position:fixed;
     top:0;
     left:0;
     width: 100%;
     height:50px;
+    border-bottom:solid 0.1em black;
 }
 
-img {
-    width:40px;
-    height:40px;
-    display:flex;
-    justify-content:flex-start;
-    padding-left:50px;
-}
-
-nav {
+.menu {
   /* background-image: linear-gradient(to bottom right, blue, rgba(239, 192, 52, 0.524)) */
   font-size:1.2em;
   display:flex;
@@ -38,7 +31,15 @@ nav {
   gap:150px;
 }
 
-nav a {
+.menu__img {
+    width:40px;
+    height:40px;
+    display:flex;
+    justify-content:flex-start;
+    padding-left:50px;
+}
+
+.menu a {
     text-decoration:none;
     color:black;
 }
