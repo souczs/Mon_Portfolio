@@ -1,10 +1,10 @@
 <template>
     <header>
         <nav class="menu">
-            <RouterLink to="/"><img src="../assets/img/home.png" alt="Revenir en haut de la page" class="menu__img"></RouterLink>
-            <RouterLink to="/#presentation">PRESENTATION</RouterLink>
-            <RouterLink to="/#projets">PROJETS</RouterLink>
-            <RouterLink to="/#contact">ME CONTACTER</RouterLink>
+            <RouterLink to="/" class="menu__link"><img src="../assets/img/home.png" alt="Revenir en haut de la page" class="menu__img"></RouterLink>
+            <RouterLink to="/presentation" class="menu__link">PRESENTATION</RouterLink>
+            <RouterLink to="/projets" class="menu__link">PROJETS</RouterLink>
+            <RouterLink to="/contact" class="menu__link">ME CONTACTER</RouterLink>
         </nav>
     </header>
 </template>
@@ -39,9 +39,14 @@ header {
     padding-left:50px;
 }
 
-.menu a {
+.menu__link {
     text-decoration:none;
     color:black;
+}
+
+.menu__link:active {
+    text-decoration: underline;
+    color: black;
 }
 
 </style>
