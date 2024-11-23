@@ -1,37 +1,56 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHistory, RouterLink } from 'vue-router'
 import Home from '../views/Home.vue'
 import AboutMe from '../views/AboutMe.vue'
 import Contact from '../views/Contact.vue'
-import Creations from '../views/Creations.vue'
+import Projets from '../views/Projets.vue'
 import Page404 from '../views/Page404.vue'
 
 const routes = [
-  { path: '/', name: Home, component: Home },
+  { path: '/home', name: Home, component: Home },
+  { path: '/', redirect:'/home' },
   { path: '/presentation', name: AboutMe, component: AboutMe },
-  { path: '/creations', name: Creations, component: Creations },
+  { path: '/projets', name: Projets, component: Projets },
   { path: '/contact', name: Contact, component: Contact },
-  { path: '/*', redirect: Page404 },
+  { path: '/404', name: Page404, component: Page404 },
 ];
 
 const router = createRouter({
   history: createWebHistory(),
   routes,
+  
   scrollBehavior(to, from, savedPosition) {
-    const pathSplit = to.path.split('/').pop();
+    let pathSplit = to.path.split('/').pop(); // Split le path selon '/' et conserver uniquement le dernier extrait avec pop
     const pageActive = document.getElementById(pathSplit);
+    let page404 = document.getElementById("404");
+    let mainPage = document.getElementById("mainblock");
+    let header = document.querySelector("Header");
+    let footer = document.querySelector("Footer");
+    // Rafraichir automatiquement la page après 3 sec et la rediriger vers '/home'
+    function refreshPageAfterDelay(path) {
+      setTimeout(() => {
+        window.location.href = path;
+      }, 3000);
+    };
 
-    if (pageActive) {
+    if (pageActive || pathSplit === "") {
+        page404.style.display="none";
         return {
             el: pageActive,
             behavior: "smooth",
         };
 
-    } else if (pathSplit !== "") {
-        return router.push('/Error404');
-    };
+    } else {
+      mainPage.style.display ="none";
+      header.style.display ="none";
+      footer.style.display="none";
+      refreshPageAfterDelay('/home');
+    }
+  }
 
-      return {top: 0, behavior: "smooth"};
-},
+
+
+
+
 });
 
 export default router;

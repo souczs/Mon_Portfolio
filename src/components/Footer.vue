@@ -9,7 +9,7 @@
    </footer>
 </template>
 
-<style>
+<style scoped>
 
 .bottom {
     background-color:#c8af7d;

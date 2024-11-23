@@ -5,7 +5,7 @@
     </body>
 </template>
 
-<style>
+<style scoped>
 
 .presentation {
     height:800px;

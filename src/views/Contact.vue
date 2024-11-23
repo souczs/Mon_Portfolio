@@ -31,19 +31,20 @@
     </body>
 </template>
 
-<style>
+<style scoped>
 
 .contact {
     height:500px;
-    padding-top:100px;
+    padding-top:20px;
     padding-left:30px;
-    padding-bottom:50px;
+    padding-bottom:30px;
     background:#c8af7d42;
     text-align:center;
 }
 
 .contact__title {
     font-size:3em;
+    padding-bottom:30px;
 }
 
 .contact__form {

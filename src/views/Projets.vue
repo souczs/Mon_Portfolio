@@ -16,6 +16,10 @@
     </body>
 </template>
 
+<script>
+import Modal from '../components/Modal.vue'
+</script>
+
 <style>
 
 .creations {

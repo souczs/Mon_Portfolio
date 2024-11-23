@@ -1,7 +1,7 @@
 <template>
     <header>
         <nav class="menu">
-            <RouterLink to="/" class="menu__link"><img src="../assets/img/home.png" alt="Revenir en haut de la page" class="menu__img"></RouterLink>
+            <RouterLink to="/home" class="menu__link"><img src="../assets/img/home.png" alt="Revenir en haut de la page" class="menu__img"></RouterLink>
             <RouterLink to="/presentation" class="menu__link">PRESENTATION</RouterLink>
             <RouterLink to="/projets" class="menu__link">PROJETS</RouterLink>
             <RouterLink to="/contact" class="menu__link">ME CONTACTER</RouterLink>
@@ -9,7 +9,7 @@
     </header>
 </template>
 
-<style>
+<style scoped>
 
 header {
     background-color:#c8af7d;
