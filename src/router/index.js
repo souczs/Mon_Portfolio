@@ -17,7 +17,6 @@ const routes = [
 const router = createRouter({
   history: createWebHistory(),
   routes,
-  
   scrollBehavior(to, from, savedPosition) {
     let pathSplit = to.path.split('/').pop(); // Split le path selon '/' et conserver uniquement le dernier extrait avec pop
     const pageActive = document.getElementById(pathSplit);
@@ -47,10 +46,7 @@ const router = createRouter({
     }
   }
 
-
-
-
-
+  
 });
 
 export default router;
