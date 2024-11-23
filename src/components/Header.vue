@@ -22,7 +22,6 @@ header {
 }
 
 .menu {
-  /* background-image: linear-gradient(to bottom right, blue, rgba(239, 192, 52, 0.524)) */
   font-size:1.2em;
   display:flex;
   flex-direction:row;

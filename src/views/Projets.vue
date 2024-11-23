@@ -1,24 +1,25 @@
+<script>
+
+</script>
+
 <template>
     <body class="creations">  
         <h1 class="creations__title">MES PROJETS</h1>
-        
+
         <section class="creations__block">
             <article class="creations__item">
-                <img src="../assets/img/logo-cv.png" alt="Logo CV">
-                <p>MON CV (HTML/CSS)</p>
+                <img src="../assets/img/logo-cv.png" alt="Logo CV" class="creations__img" id="event">
+                <p class="creations__name">MON CV</p>
             </article>
-            <article class="creations__item">
-                <img src="../assets/img/logo-commentaire.png" alt="Logo espace commentaire">
-                <p>DYNAMISER UN ESPACE COMMENTAIRE (JS)</p>
-            </article>
-        </section>
 
+            <article class="creations__item">
+                <img src="../assets/img/logo-commentaire.png" alt="Logo espace commentaire" class="creations__img" id="event">
+                <p class="creations__name">DYNAMISER UN ESPACE COMMENTAIRE</p>
+            </article>
+
+        </section>
     </body>
 </template>
-
-<script>
-import Modal from '../components/Modal.vue'
-</script>
 
 <style>
 
@@ -48,6 +49,7 @@ import Modal from '../components/Modal.vue'
     height:200px;
     width:200px;
     border-radius:15%;
+    cursor:pointer;
 }
 
 .creations__item img:hover {
@@ -58,5 +60,20 @@ import Modal from '../components/Modal.vue'
     border-bottom: solid 0.3em #c8af7d;
 }
 
+.creations__name {
+    font-weight: bold;
+}
+
+.creations__date {
+    display:none;
+}
+
+.creations__code {
+    display:none;
+}
+
+.creations__link {
+    display:none;
+}
 
 </style>
