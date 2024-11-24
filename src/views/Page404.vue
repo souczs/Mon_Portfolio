@@ -3,7 +3,7 @@
         <h1 class="errorpage__title">Page 404</h1>
 
         <section class="errorpage__content">
-            <p class="errorpage__textarea">La page que vous recherchez n'existe pas.</p>
+            <p class="errorpage__text">La page que vous recherchez n'existe pas.</p>
             <p>Vous serez redirigés dans 3 secondes vers la page d'accueil.</p>
             <img src="../assets/img/erreur.png" alt="Page non trouvée" class="errorpage__img">
         </section>
@@ -25,7 +25,7 @@
     padding-top: 10px;
 }
 
-.errorpage img {
+.errorpage__img {
     width:600px;
     height:600px;
     padding-top:40px;

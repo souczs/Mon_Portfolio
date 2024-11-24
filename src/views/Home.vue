@@ -1,10 +1,10 @@
 <template>
     <body class="welcome">
         <img src="../assets/img/logo-ordinateur.png" alt="" class="welcome__photo">
-        <section class="welcome__text">
+        <section class="welcome__presentation">
             <h1 class="welcome__name">&lt;&gt;SONIA EL BOURI&lt;/&gt;</h1><br>
             <h2 class="welcome__job">Développeuse Web junior</h2><br>
-            <p>Bienvenue sur mon portfolio !</p><br>
+            <p class="welcome__text">Bienvenue sur mon portfolio !</p><br>
             <p>Ce portfolio est une vitrine de mon travail, combinant à la fois créativité, technicité et souci du détail.</p>
             <p>Vous y trouverez mes projets récents, où j’ai appliqué mes compétences en HTML/CSS & JS pour concevoir des solutions web sur mesure.</p><br>
             <p>N’hésitez pas à explorer, et contactez-moi si vous avez des questions ou souhaitez collaborer.</p>
@@ -49,7 +49,7 @@
     font-size:2em;
 }
 
-.welcome__text p {
+.welcome__text {
     font-size:1.2em;
 }
 
