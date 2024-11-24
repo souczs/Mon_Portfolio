@@ -13,46 +13,6 @@
       />
     </body>
   </template>
-
-<style scoped>
-
-.project {
-    height:800px;
-    padding-top:120px;
-    padding-left:300px;
-    padding-right:300px;
-    background:#c8af7d42;
-    text-align:center;
-    line-height: 3em;
-}
-
-.project__title {
-    font-size:3em;
-    padding-bottom:60px;
-}
-
-.project__item {
-    padding-bottom:30px;
-    display:flex;
-    align-items:center;
-    gap:30px;
-}
-
-.project__image {
-    height:130px;
-    width:130px;
-    border-radius:10%;
-    cursor: pointer;
-}
-.project__image:hover {
-    box-shadow: 0.5em 0.5em 5px #c8af7d;
-}
-
-.project__item img:hover + h2 {
-    border-bottom: solid 0.2em #c8af7d;
-}
-
-</style>
   
 <script>
 import Modal from '../components/Modal.vue';
@@ -94,3 +54,43 @@ export default {
     }
   };
 </script>
+
+<style scoped>
+
+.project {
+    height:800px;
+    padding-top:120px;
+    padding-left:300px;
+    padding-right:300px;
+    background:#c8af7d42;
+    text-align:center;
+    line-height: 3em;
+}
+
+.project__title {
+    font-size:3em;
+    padding-bottom:60px;
+}
+
+.project__item {
+    padding-bottom:30px;
+    display:flex;
+    align-items:center;
+    gap:30px;
+}
+
+.project__image {
+    height:130px;
+    width:130px;
+    border-radius:10%;
+    cursor: pointer;
+}
+.project__image:hover {
+    box-shadow: 0.5em 0.5em 5px #c8af7d;
+}
+
+.project__item img:hover + h2 {
+    border-bottom: solid 0.2em #c8af7d;
+}
+
+</style>
