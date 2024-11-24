@@ -1,31 +1,20 @@
-# mon-portfolio
+  Ce projet a pour objectif de concevoir et réaliser un portfolio web interactif destiné à présenter mon profil, mes compétences, et mes réalisations de manière claire et professionnelle. L’objectif principal était de créer une plateforme en ligne attrayante et intuitive, reflétant mon expertise et ma créativité.
+Le portfolio s’organise autour des sections ci-dessous.
 
-This template should help get you started developing with Vue 3 in Vite.
+**Accueil** : une introduction engageante avec un message personnalisé et des visuels pour captiver l’attention des visiteurs.
 
-## Recommended IDE Setup
+**À propos** : une présentation de mon parcours, mettant en avant mes compétences et mes expériences professionnelles.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+**Projets** : une galerie interactive où chaque réalisation est mise en valeur avec des descriptions détaillées, les objectifs atteints, et des liens pour explorer davantage.
 
-## Customize configuration
+**Contact** : un espace permettant aux visiteurs de me joindre facilement grâce à un formulaire convivial, complété par des liens vers mes réseaux professionnels.
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+La lecture de ce projet nécessite :
+1. L'installation de Node.js et son gestionnaire de paquets (npm)
+2. L'installation de VueCLI via Node.js
+3. La récupération du projet Git via un dossier compressé ZIP ou via un lien Git
+4. L'installation des dépendances du projet
+5. Le lancement du serveur VueJS
 
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
+Plus de détails sur : https://nodejs.org/fr & https://fr.vuejs.org
 http://localhost:5173/
