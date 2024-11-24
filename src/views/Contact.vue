@@ -112,6 +112,7 @@ export default {
     padding:10px;
     margin-top:30px;
     border-radius:7%;
+    cursor:pointer;
 }
 
 .contact__result{
