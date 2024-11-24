@@ -67,5 +67,4 @@
     background: #5a4f39;
     color:#c8af7d;
   }
-
   </style>
