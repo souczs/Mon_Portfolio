@@ -45,8 +45,6 @@ const router = createRouter({
       refreshPageAfterDelay('/home');
     }
   }
-
-  
 });
 
 export default router;
