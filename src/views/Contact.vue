@@ -90,7 +90,7 @@ export default {
 
 .contact {
     height:600px;
-    /* padding-top:10px; */
+    padding-top:20px;
     padding-left:30px;
     padding-bottom:10px;
     background:#c8af7d42;
@@ -110,7 +110,8 @@ export default {
     font-size:1em;
     background:white;
     padding:10px;
-    cursor:pointer;
+    margin-top:30px;
+    border-radius:7%;
 }
 
 .contact__result{

@@ -42,10 +42,16 @@ header {
     text-decoration:none;
     color:black;
 }
+.menu__link:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    color: #5a4f39;
+}
 
 .menu__link:active {
     text-decoration: underline;
-    color: black;
+    font-weight: bold;
+    color: #5a4f39;
 }
 
 </style>
