@@ -9,5 +9,12 @@ Le portfolio s’organise autour des sections ci-dessous.
 
 **Contact** : un espace permettant aux visiteurs de me joindre facilement grâce à un formulaire convivial, complété par des liens vers mes réseaux professionnels.
 
+La lecture de ce projet nécessite :
+1. L'installation de Node.js et son gestionnaire de paquets (npm)
+2. L'installation de VueCLI via Node.js
+3. La récupération du projet Git via un dossier compressé ZIP ou via un lien Git
+4. L'installation des dépendances du projet
+5. Le lancement du serveur VueJS
 
+Plus de détails sur : https://nodejs.org/fr & https://fr.vuejs.org
 http://localhost:5173/
