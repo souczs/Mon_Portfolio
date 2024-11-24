@@ -34,7 +34,7 @@
 <style scoped>
 
 .contact {
-    height:500px;
+    height:600px;
     padding-top:20px;
     padding-left:30px;
     padding-bottom:30px;
@@ -55,6 +55,8 @@
     font-size:1em;
     background:white;
     padding:10px;
+    margin-top:30px;
+    border-radius:7%;
 }
 
 </style>
